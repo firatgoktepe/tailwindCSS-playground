@@ -8,6 +8,47 @@
     <title>My TailwindCSS</title>
   </head>
   <body>
-    <h1 class="text-3xl font-bold underline">Hello World!</h1>
+    <h1 class="text-3xl font-bold underline text-center w-full py-2 md:py-4">
+      Some Examples
+    </h1>
+    <div class="flex flex-wrap">
+      <div class="w-full md:w-1/2 p-4">
+        <h2 class="text-2xl font-bold">Heading</h2>
+        <p class="text-lg">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
+          euismod, nisl sit amet consectetur consectetur, nisi erat euismod
+          nunc, eget consectetur nunc nisi eget consectetur.
+        </p>
+      </div>
+      <div class="w-full md:w-1/2 p-4">
+        <h2 class="text-2xl font-bold">Heading</h2>
+        <p class="text-lg">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
+          euismod, nisl sit amet consectetur consectetur, nisi erat euismod
+          nunc, eget consectetur nunc nisi eget consectetur.
+        </p>
+      </div>
+    </div>
+    <div
+      class="py-8 px-8 bg-white max-w-sm mx-auto rounded-xl shadow-lg space-y-2 sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6"
+    >
+      <img
+        src="/img/logo.jpg"
+        alt="Man's face"
+        class="block mx-auto w-24 h-24 rounded-full sm:mx-0 sm:shrink-0"
+      />
+
+      <div class="text-center space-y-2 sm:text-left">
+        <div class="space-y-0.5">
+          <p class="text-lg text-black font-semibold">Firat Göktepe</p>
+          <p class="text-slate-500 font-medium">Developer</p>
+        </div>
+        <button
+          class="px-4 py-1 rounded-full text-sm font-semibold text-purple-600 border border-purple-200 hover:bg-purple-500 hover:text-white hover:border-transparent focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2"
+        >
+          Message
+        </button>
+      </div>
+    </div>
   </body>
 </html>
