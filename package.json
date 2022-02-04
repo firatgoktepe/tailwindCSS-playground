@@ -1,0 +1,17 @@
+{
+  "name": "tailwind-test",
+  "version": "1.0.0",
+  "description": "test for playing tailwindCSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tailwind"
+  ],
+  "author": "Firat Goktepe",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.0.18"
+  }
+}
